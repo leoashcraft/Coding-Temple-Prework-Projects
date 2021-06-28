@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css?family=Kirang Haerang');
+@import url('https://fonts.googleapis.com/css?family=Sue Ellen Francisco');
+
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.wrapper {
+  height: 100%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.background {
+  background-image: url('images/misc/background.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  display: table;
+  color: white;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: orange;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .75);
+  background-image: url('images/misc/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+
+.header h1 {
+  font-size: 75px;
+  margin: 10px;
+  text-align: center;
+  color: orange;
+  font-family: 'Kirang Haerang', serif;
+  text-shadow: 1px 0 0 black,0 3px 0 black,1px 0 0 black,0 -1px 0 black;
+  -webkit-text-fill-color: orange;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  background-color: rgba(0, 0, 0, .5);
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  background-color: rgba(0, 0, 0, .5);
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.profanity {
+	font-size: 22px;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+.card p {
+ 
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.card hr {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* Sidebar Bio */
+
+.biocard  {
+  background-color: rgba(254, 120, 1, .9);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.bioportrait {
+  width: 100%;
+}
+
+.bioname {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #000;
+}
+
+.biopin {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.biolocation {
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.bioage {
+  font-size: 30px;
+  color: #000;
+}
+
+.biobody {
+  text-align: justify;
+  padding-top: 0;
+  margin-top: 25px;
+  line-height: 1.5;
+  color: #000;
+  font-size: 30px;
+  font-family: 'Sue Ellen Francisco', serif;
+}
+
+.biosocialicons {
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
+
+.biosocialicons img {
+  width: 100%;
+}
+
+.biosocialiconslast {
+  width: 25%;
+  float: right;
+  padding: 5px;
+}
+
+.biosocialiconslast img {
+  width: 100%;
+}
+
+/* Image Styles within Cards */
+.funnies {
+  width: 100%;
+}
+
+.funnies img {
+  width: 100%;
+}
+
+.funnieslast {
+  width: 100%;
+}
+
+.funnieslast img {
+  width: 100%;
+}
+
+.cardfullwidth {
+  width: 100%;
+}
+
+.cardfullwidth img {
+  width: 100%;
+}
+
+.cardfeatured50 {
+  width: 50%;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  float: right;
+}
+
+.cardfeatured40 {
+  width: 40%;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  float: right;
+}
+
+.cardfeatured33 {
+  width: 33%;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  float: right;
+}
+
+.cardvideofeatured40 {
+  width: 40%;
+  height: auto;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  float: right;
+}
+
+.cardvideofeatured40 video {
+  width: 100%;
+  height: auto;
+}
+
+.cardleft24 {
+  width: 24%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.cardleft59 {
+  width: 59%;
+}
+
+.cardleft24 img {
+  width: 100%;
+}
+
+.cardright72 {
+  width: 72%;
+  float: right;
+  padding-bottom: 20px;
+}
+
+.cardright72 img {
+  width: 100%;
+}
+
+.cardthirdleft {
+  width: 32.66%;
+  float: left;
+  margin-right: 1%;
+  padding-bottom: 10px;
+}
+
+.cardthirdleft img {
+  width: 100%;
+}
+
+.cardthirdcenter {
+  width: 32.66%;
+  float: left; 
+  margin-right: 1%;
+  padding-bottom: 10px;
+}
+
+.cardthirdcenter img {
+  width: 100%;
+}
+
+.cardthirdright {
+  width: 32.66%;
+  float: right;
+
+  padding-bottom: 10px;
+}
+
+.cardthirdright img {
+  width: 100%;
+}
+
+.cardhalfleft {
+  width: 49.5%;
+  float: left;
+  margin-right: 0.5%;
+  padding-bottom: 10px;
+}
+
+.cardhalfleft img {
+  width: 100%;
+}
+
+.cardvideohalfleft {
+  width: 49.5%;
+  float: left;
+  margin-right: 0.5%;
+  padding-bottom: 10px;
+}
+
+.cardvideohalfleft video {
+  width: 100%;
+  height: auto;
+}
+
+.cardhalfright {
+  width: 49.5%;
+  float: right;
+  margin-left: 0.5%;
+  padding-bottom: 10px;
+}
+
+.cardhalfright img {
+  width: 100%;
+}
+
+.socialicons {
+	width: 25%;
+	float: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive layout - 1400px */
+@media screen and (max-width: 1400px) {
+
+  .biolocation {
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .biobody {
+    text-align: justify;
+    padding-top: 0;
+    margin-top: -1px;
+    line-height: 1.5;
+    color: #000;
+    font-size: 26px;
+    font-family: 'Sue Ellen Francisco', serif;
+  }
+
+  .cardleft59 {
+    width: 100%;
+  }
+
+}
+
+/* Responsive layout - 1200px */
+@media screen and (max-width: 1200px) {
+
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+
+  .biolocation {
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  .biobody {
+    text-align: justify;
+    padding-top: 0;
+    margin-top: -1px;
+    line-height: 1.5;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Sue Ellen Francisco', serif;
+  }
+
+  .funnies {
+    width: 32%;
+    margin-left: 1.33%;
+    float: left;
+  }
+
+  .funnieslast {
+    width: 32%;
+    float: right;
+  }
+  
+  .cardleft24 {
+    width: 70%;
+  }
+
+  .cardright72 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .cardleft59 {
+    width: 100%;
+  }
+
+}
+
+/* Responsive layout - 800px */
+@media screen and (max-width: 800px) {
+
+  .header h1 {
+    font-size: 60px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+
+  .cardfeatured {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+  
+  .cardfeatured40 {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .cardfeatured50 {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .cardleft24 {
+    width: 80%;
+  }
+  
+  .cardleft59 {
+    width: 100%;
+  }
+
+  .cardright72 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .cardthirdleft {
+    width: 100%;
+  }
+
+  .cardthirdcenter {
+    width: 100%;
+  }
+
+  .cardthirdright {
+    width: 100%;
+  }
+  
+  .cardhalfleft {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .cardvideohalfleft {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardhalfright {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .cardvideofeatured40 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    float: right;
+  }
+
+}
+
+/* Responsive layout - 400 px */
+@media screen and (max-width: 400px) {
+	
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
